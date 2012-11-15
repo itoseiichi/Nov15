@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF223C11651BC6400F88687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF223C01651BC6400F88687 /* UIKit.framework */; };
+		FAF223C31651BC6400F88687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF223C21651BC6400F88687 /* Foundation.framework */; };
+		FAF223C51651BC6400F88687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF223C41651BC6400F88687 /* CoreGraphics.framework */; };
+		FAF223CB1651BC6400F88687 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF223C91651BC6400F88687 /* InfoPlist.strings */; };
+		FAF223CD1651BC6400F88687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF223CC1651BC6400F88687 /* main.m */; };
+		FAF223D11651BC6400F88687 /* Nov15AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF223D01651BC6400F88687 /* Nov15AppDelegate.m */; };
+		FAF223D91651BC9C00F88687 /* barack_obama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF223D71651BC9C00F88687 /* barack_obama.jpg */; };
+		FAF223DA1651BC9C00F88687 /* mitt_romney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF223D81651BC9C00F88687 /* mitt_romney.jpg */; };
+		FAF223DC1651BCBF00F88687 /* obama_smiling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF223DB1651BCBF00F88687 /* obama_smiling.jpg */; };
+		FAF223DE1651BCCD00F88687 /* romney_lose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF223DD1651BCCD00F88687 /* romney_lose.jpg */; };
+		FAF223E21651BF0E00F88687 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF223E11651BF0E00F88687 /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAF223BC1651BC6400F88687 /* Nov15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nov15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF223C01651BC6400F88687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAF223C21651BC6400F88687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF223C41651BC6400F88687 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAF223C81651BC6400F88687 /* Nov15-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov15-Info.plist"; sourceTree = "<group>"; };
+		FAF223CA1651BC6400F88687 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAF223CC1651BC6400F88687 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF223CE1651BC6400F88687 /* Nov15-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nov15-Prefix.pch"; sourceTree = "<group>"; };
+		FAF223CF1651BC6400F88687 /* Nov15AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov15AppDelegate.h; sourceTree = "<group>"; };
+		FAF223D01651BC6400F88687 /* Nov15AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov15AppDelegate.m; sourceTree = "<group>"; };
+		FAF223D71651BC9C00F88687 /* barack_obama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barack_obama.jpg; sourceTree = "<group>"; };
+		FAF223D81651BC9C00F88687 /* mitt_romney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mitt_romney.jpg; sourceTree = "<group>"; };
+		FAF223DB1651BCBF00F88687 /* obama_smiling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama_smiling.jpg; sourceTree = "<group>"; };
+		FAF223DD1651BCCD00F88687 /* romney_lose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = romney_lose.jpg; sourceTree = "<group>"; };
+		FAF223E01651BF0E00F88687 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		FAF223E11651BF0E00F88687 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF223B91651BC6400F88687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF223C11651BC6400F88687 /* UIKit.framework in Frameworks */,
+				FAF223C31651BC6400F88687 /* Foundation.framework in Frameworks */,
+				FAF223C51651BC6400F88687 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF223B11651BC6400F88687 = {
+			isa = PBXGroup;
+			children = (
+				FAF223C61651BC6400F88687 /* Nov15 */,
+				FAF223BF1651BC6400F88687 /* Frameworks */,
+				FAF223BD1651BC6400F88687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF223BD1651BC6400F88687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF223BC1651BC6400F88687 /* Nov15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF223BF1651BC6400F88687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF223C01651BC6400F88687 /* UIKit.framework */,
+				FAF223C21651BC6400F88687 /* Foundation.framework */,
+				FAF223C41651BC6400F88687 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF223C61651BC6400F88687 /* Nov15 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF223CF1651BC6400F88687 /* Nov15AppDelegate.h */,
+				FAF223D01651BC6400F88687 /* Nov15AppDelegate.m */,
+				FAF223E01651BF0E00F88687 /* View.h */,
+				FAF223E11651BF0E00F88687 /* View.m */,
+				FAF223C71651BC6400F88687 /* Supporting Files */,
+			);
+			path = Nov15;
+			sourceTree = "<group>";
+		};
+		FAF223C71651BC6400F88687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF223D71651BC9C00F88687 /* barack_obama.jpg */,
+				FAF223D81651BC9C00F88687 /* mitt_romney.jpg */,
+				FAF223DB1651BCBF00F88687 /* obama_smiling.jpg */,
+				FAF223DD1651BCCD00F88687 /* romney_lose.jpg */,
+				FAF223C81651BC6400F88687 /* Nov15-Info.plist */,
+				FAF223C91651BC6400F88687 /* InfoPlist.strings */,
+				FAF223CC1651BC6400F88687 /* main.m */,
+				FAF223CE1651BC6400F88687 /* Nov15-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF223BB1651BC6400F88687 /* Nov15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF223D41651BC6400F88687 /* Build configuration list for PBXNativeTarget "Nov15" */;
+			buildPhases = (
+				FAF223B81651BC6400F88687 /* Sources */,
+				FAF223B91651BC6400F88687 /* Frameworks */,
+				FAF223BA1651BC6400F88687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nov15;
+			productName = Nov15;
+			productReference = FAF223BC1651BC6400F88687 /* Nov15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF223B31651BC6400F88687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FAF223B61651BC6400F88687 /* Build configuration list for PBXProject "Nov15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF223B11651BC6400F88687;
+			productRefGroup = FAF223BD1651BC6400F88687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF223BB1651BC6400F88687 /* Nov15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF223BA1651BC6400F88687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF223CB1651BC6400F88687 /* InfoPlist.strings in Resources */,
+				FAF223D91651BC9C00F88687 /* barack_obama.jpg in Resources */,
+				FAF223DA1651BC9C00F88687 /* mitt_romney.jpg in Resources */,
+				FAF223DC1651BCBF00F88687 /* obama_smiling.jpg in Resources */,
+				FAF223DE1651BCCD00F88687 /* romney_lose.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF223B81651BC6400F88687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF223CD1651BC6400F88687 /* main.m in Sources */,
+				FAF223D11651BC6400F88687 /* Nov15AppDelegate.m in Sources */,
+				FAF223E21651BF0E00F88687 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF223C91651BC6400F88687 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF223CA1651BC6400F88687 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF223D21651BC6400F88687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAF223D31651BC6400F88687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF223D51651BC6400F88687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nov15/Nov15-Prefix.pch";
+				INFOPLIST_FILE = "Nov15/Nov15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAF223D61651BC6400F88687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nov15/Nov15-Prefix.pch";
+				INFOPLIST_FILE = "Nov15/Nov15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF223B61651BC6400F88687 /* Build configuration list for PBXProject "Nov15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF223D21651BC6400F88687 /* Debug */,
+				FAF223D31651BC6400F88687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF223D41651BC6400F88687 /* Build configuration list for PBXNativeTarget "Nov15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF223D51651BC6400F88687 /* Debug */,
+				FAF223D61651BC6400F88687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF223B31651BC6400F88687 /* Project object */;
+}
